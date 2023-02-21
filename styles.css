@@ -7,13 +7,14 @@ body {
 }
 
 * {
-  margin: 0;
+
   padding: 0;
   font-family: Moderat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
 }
 
 header {
+  margin: 0;
   display: flex;
   padding-top: 3.2rem;
   flex-direction: row;
@@ -36,6 +37,10 @@ ul {
 
 /* utility */
 
+.m-0 {
+  margin: 0;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -53,9 +58,11 @@ ul {
   display: flex;
   margin-right: 1rem;
   z-index: 2;
+  margin: 0;
 }
 
 .nav {
+  margin: 0;
   display: flex;
   justify-content: right;
   left: 1rem;
@@ -70,9 +77,10 @@ ul {
   font-weight: bold;
   width: 207px;
   z-index: 0;
+  margin: 0;
 
   left: 64px;
-  top: 48px;
+  top: 38px;
 }
 
 .section-title {
@@ -510,7 +518,7 @@ section {
   }
 
   .full-width {
-    width: 90vw;
+    width: 0vw;
     overflow: hidden;
     border: 1px solid;
     border-radius: 1rem;
