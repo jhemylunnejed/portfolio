@@ -34,8 +34,18 @@ ul {
   list-style: none;
 }
 
+/* utility */
+
 .mt-4 {
   margin-top: 1rem;
+}
+
+.ml-4 {
+  margin-left: 8rem;
+}
+
+.mt-8 {
+  margin-top: 8rem;
 }
 
 .nav-list {
@@ -485,6 +495,25 @@ section {
 
   .burger {
     display: block;
+  }
+
+  .ml-4 {
+    margin-left: 0rem;
+  }
+
+  .mt-4 {
+    margin-top: 1rem;
+  }
+   
+  .mt-8 {
+    margin-top: 1rem;
+  }
+
+  .full-width {
+    width: 90vw;
+    overflow: hidden;
+    border: 1px solid;
+    border-radius: 1rem;
   }
 }
 
