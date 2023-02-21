@@ -523,7 +523,7 @@ section {
   }
 
   .full-width {
-    width: 0vw;
+    width: 90vw;
     overflow: hidden;
     border: 1px solid;
     border-radius: 1rem;
