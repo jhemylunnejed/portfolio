@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   background-color: #f2eee5;
 }
@@ -28,6 +32,10 @@ img {
 
 ul {
   list-style: none;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .nav-list {
@@ -139,6 +147,7 @@ a {
   width: 100%;
   flex-direction: row;
   justify-content: center;
+  margin-top: 1rem;
 }
 
 .skills-title {
@@ -165,7 +174,6 @@ a {
 .project-container {
   display: flex;
   justify-content: center;
-  height: 100vh;
 }
 
 .typo-img {
@@ -194,6 +202,7 @@ a {
 .to-do-proj-container {
   display: flex;
   flex-direction: column;
+  
 }
 
 .vid-wrapper {
@@ -202,6 +211,13 @@ a {
 
 .to-do-vid {
   width: 250px;
+  overflow: hidden;
+  border: 1px solid;
+  border-radius: 1rem;
+}
+
+.full-width {
+  width: 50vw;
   overflow: hidden;
   border: 1px solid;
   border-radius: 1rem;
