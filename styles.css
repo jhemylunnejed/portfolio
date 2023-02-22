@@ -29,6 +29,10 @@ header {
 
 p {
   font-size: 1rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 img {
@@ -229,7 +233,7 @@ a {
 }
 
 .vid-wrapper {
-  margin: 2rem 0 0 1rem;
+  margin: 2rem 0 0 0rem;
 }
 
 .to-do-vid {
@@ -258,7 +262,6 @@ a {
 
 .project-link p {
   font-size: 0.75rem;
-  padding-right: 11.5rem;
 }
 
 /* CONTACT SECTION */
