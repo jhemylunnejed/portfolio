@@ -119,10 +119,11 @@ ul {
 a {
   text-decoration: none;
   color: black;
-
-  font-weight: bold;
 }
 
+nav a {
+  font-weight: bold;
+}
 .burger {
   display: none;
   position: fixed;
@@ -241,9 +242,15 @@ a {
 .to-do-proj-container {
   display: flex;
   flex-direction: column;
-  cursor: pointer;
-  
+  cursor: pointer; 
 }
+
+.wh-proj-container {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer; 
+}
+
 
 .to-do-proj-container:hover {
   border-left: black solid 1px;
@@ -550,6 +557,13 @@ section {
     overflow: hidden;
     border: 1px solid;
     border-radius: 1rem;
+  }
+
+  .to-do-proj-container:hover {
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    box-shadow: none;
   }
 }
 

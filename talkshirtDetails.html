@@ -7,6 +7,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/output.css" rel="stylesheet">
 
 
 </head>
@@ -14,6 +15,7 @@
 <body>
     <header>
         <a href="index.html#welcome-section"><p class="logo">Jhemylunne<br />Jed</p></a>
+        <a href="index.html" class="fixed top-36 left-16 hover:font-medium">Back</a>
         <a href="nav.html" class="burger">
             <div class="line"></div>
             <div class="line"></div>
@@ -61,22 +63,31 @@
 
     <!-- <div class = "circle"></div> -->
 
-    <section id="about" class="about-section">
+    <section id="about" class="ml-4 w-11/12">
       
-        <div class="flex">
+        <div class="flex flex-col justify-center items-center">
+            <div class="flex flex-col sm:w-full md:w-1/2">
             <div class="vid-wrapper">
                 <video class="full-width" autoplay muted loop>
                 <source src="https://res.cloudinary.com/talkshirts/video/upload/v1677071307/portfolio/talkshirtsvid_oowvtx.mp4">
                 </video>
             </div>
-            <h1>Talkshirts</h1>
+            <h1 class="font-bold mt-4">Talkshirts</h1>
             <p>A web-based e-commerce platform aimed at showcasing talkshirts’
              range of products. The platform enables users to create accounts,
               browse products, and manage their carts.
             </p>
+            <h1 class="font-bold mt-4">Role</h1>
+            <ul>
+                <li>Lead Developer</li>
+                <li>UI/UX Designer</li>
+            </ul>
+        </div>
 
         </div>
     </section>
+
+
 
  
 
