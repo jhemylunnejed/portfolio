@@ -520,11 +520,6 @@ section {
     align-items: center;
   }
 
-  .project-title {
-    padding-right: 0rem;
-    font-weight: bold;
-  }
-
   .intro {
     padding-bottom: 2rem;
     width: 90%;
@@ -580,10 +575,6 @@ section {
   .project-container {
     flex-direction: column;
     height: 100%;
-  }
-
-  .medium-90vw {
-    width: 90vw;
   }
 
   .typo-rows {
