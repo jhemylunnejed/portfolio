@@ -68,6 +68,10 @@ ul {
   text-decoration: underline;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 /* utility */
 
 .nav-list {
@@ -115,10 +119,11 @@ ul {
 a {
   text-decoration: none;
   color: black;
-
-  font-weight: bold;
 }
 
+nav a {
+  font-weight: bold;
+}
 .burger {
   display: none;
   position: fixed;
@@ -237,7 +242,21 @@ a {
 .to-do-proj-container {
   display: flex;
   flex-direction: column;
-  
+  cursor: pointer; 
+}
+
+.wh-proj-container {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer; 
+}
+
+
+.to-do-proj-container:hover {
+  border-left: black solid 1px;
+  border-right: black solid 1px;
+  border-radius: 1rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 
 .vid-wrapper {
@@ -508,11 +527,6 @@ section {
     align-items: center;
   }
 
-  .project-title {
-    padding-right: 0rem;
-    font-weight: bold;
-  }
-
   .intro {
     padding-bottom: 2rem;
     width: 90%;
@@ -544,6 +558,13 @@ section {
     border: 1px solid;
     border-radius: 1rem;
   }
+
+  .to-do-proj-container:hover {
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
 }
 
 @media all and (max-width: 800px) {
@@ -568,10 +589,6 @@ section {
   .project-container {
     flex-direction: column;
     height: 100%;
-  }
-
-  .medium-90vw {
-    width: 90vw;
   }
 
   .typo-rows {
