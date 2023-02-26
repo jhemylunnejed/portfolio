@@ -68,6 +68,10 @@ ul {
   text-decoration: underline;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 /* utility */
 
 .nav-list {
@@ -237,7 +241,15 @@ a {
 .to-do-proj-container {
   display: flex;
   flex-direction: column;
+  cursor: pointer;
   
+}
+
+.to-do-proj-container:hover {
+  border-left: black solid 1px;
+  border-right: black solid 1px;
+  border-radius: 1rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 
 .vid-wrapper {
